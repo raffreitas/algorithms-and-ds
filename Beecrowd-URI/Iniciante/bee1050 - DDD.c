@@ -32,6 +32,9 @@ int main(){
         case 31:
             printf("Belo Horizonte\n");
             break;
+        default:
+            printf("DDD nao cadastrado\n");
+
     }
 
 
