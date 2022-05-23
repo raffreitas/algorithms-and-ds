@@ -1,8 +1,3 @@
-/*
-    Há um caso de teste que não funciona
-    Wrong answer (100%)
-*/
-
 #include <stdlib.h>
 #include <stdio.h>
 
