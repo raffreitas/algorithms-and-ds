@@ -1,3 +1,3 @@
-# Algoritmos e Esturura de dados
+# Algoritmos e Estrutura de dados
 
 Resoluções
