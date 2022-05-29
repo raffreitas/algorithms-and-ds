@@ -1,8 +1,3 @@
-/*
-    Há um caso de teste que não funciona 
-    Wrong answer (100%)
-*/
-
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -24,19 +19,19 @@ int main()
     minutos = mFim - mIni;
     segundos = sFim - sIni;
 
-    if (horas < 0){
-        horas += 24;
-        dias--;
+    if (segundos < 0){
+        segundos += 60;
+        minutos--;
     }
 
-    if (minutos < 0){
+     if (minutos < 0){
         minutos += 60;
         horas--;
     }
 
-    if (segundos < 0){
-        segundos += 60;
-        minutos--;
+    if (horas < 0){
+        horas += 24;
+        dias--;
     }
 
     printf("%d dia(s)\n", dias);
